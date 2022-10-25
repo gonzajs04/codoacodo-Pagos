@@ -1,0 +1,21 @@
+.footer{
+    padding: 1rem 0;
+    background: linear-gradient(270deg, rgba(27,82,113,1) 0%, rgba(27,82,113,1) 0%, rgba(26,54,67,1) 100%);
+}
+
+.ul-footer li{
+    list-style: none;
+    padding: 0 2rem;
+    width: 150px;
+
+}
+.ul-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ul-footer li a{
+    color: white;
+    padding: 0;
+}

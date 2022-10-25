@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membresias</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/pagos.css">
+    <link rel="stylesheet" href="css/categorias.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenido-header">
+
+        <div class="logo">
+            <div class="img-logo">
+                <img src="Imagenes/codoacodo.png" alt="imagen codo a codo">
+            </div>
+            <div class="texto-logo">
+                <h2>Conf Bs As</h2>
+            </div>
+
+        </div>
+
+        <nav class="navegacion">
+
+            <a href="">La conferencia</a>
+            <a href="">Las oradores</a>
+            <a href="">El lugar y la fecha</a>
+            <a style = "color:#ffff" href="">Conviertete en orador</a>
+            <a style = "color: #97C93F" href="">Comprar tickets</a>
+
+        </nav>
+
+    </div>
+
+
+    </header>
+
+
+
+    <section class="categorias">
+        <div class="categorias-flex">
+
+            <div class="bordes borde-azul contenedor categoria">
+                <div class="cat-nombre">
+                    <h2>Estudiante</h2>
+                </div>
+                
+                <p>Tienen un descuento</p>
+                <p class="descuento">80%</p>
+                <p style = "color: #A39E9C">*presentar documentacion</p>
+
+            </div>
+
+            <div class="bordes borde-cyan contenedor categoria">
+
+                <div class="cat-nombre">
+                    <h2>Trainee</h2>
+                </div>
+
+                <p>Tienen un descuento</p>
+                <p class="descuento">50%</p>
+                <p style = "color: #A39E9C">*presentar documentacion</p>
+                
+            </div>
+
+            <div class="bordes borde-amarillo contenedor categoria">
+
+                <div class="cat-nombre">
+                    <h2>Junior</h2>
+                </div>
+                
+                <p>Tienen un descuento</p>
+                <p class="descuento">15%</p>
+                <p style = "color: #A39E9C">*presentar documentacion</p>
+                
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="pagos">
+
+        <p>Venta</p>
+        <h2>Valor de Ticket $200</h2>
+        <form  class= "form-pagos" action="#">
+
+            <input class= "input-nombre" type="text" placeholder="Nombre" value="">
+            <input class= "input-apellido" type="text" name = "apellido" placeholder="Apellido" value="">
+            <input class="input-mail" type="email" name="email" id="email" placeholder="Correo" value="">
+
+        <div class="cantidad">
+            <label for="cantidad">Cantidad</label>
+            <input class= "input-cantidad" type="number" min="0">
+        </div>
+        <div class="categoria-select">
+            <label for="categoria">Categoria</label>
+
+            <select class="select-categoria" name="categoria" id="categoria">
+                <option value="" selected="selected">---Seleccione---</option>
+                <option value="1">Estudiante</option>
+                <option value="2">Trainee</option>
+                <option value="3">Junior</option>
+
+            </select>
+        </div>
+
+        <div class="total-pagar">
+
+            <p>Total a pagar: $</p>
+
+        </div>
+
+        
+      
+            <input class="btn btn-borrar" type="submit" value="Borrar">
+            <input class = "btn btn-resumen" type="submit" value="Resumen">
+
+
+
+        </form>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <ul class = "ul-footer">
+        
+            <li> <a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Contactanos</a></li>
+            <li><a href="#">Prensa</a></li>
+            <li><a href="#">Conferencias</a></li>
+            <li>  <a href="#">Terminos y condiciones</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li>  <a href="#">Estudiantes</a></li>
+
+        </ul>
+
+    </footer>
+
+    
+   <script src="js/app.js"></script>
+</body>
+</html>

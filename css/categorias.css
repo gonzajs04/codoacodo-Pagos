@@ -1,0 +1,25 @@
+
+.categorias{
+    width: 650px;
+    margin: 0 auto;
+}
+.categorias-flex{
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.categoria{
+    padding: .6rem 1.3rem;
+
+}
+.descuento{
+    font-weight: 600;
+}
+.cat-nombre h2{
+    color: #212529;
+
+}

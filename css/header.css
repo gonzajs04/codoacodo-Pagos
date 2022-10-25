@@ -1,0 +1,23 @@
+.header{
+    background-color: #343A40;
+}
+.contenido-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+
+}
+.img-logo{
+    width: 120px;
+}
+.texto-logo h2{
+    line-height: 30px;
+    color:#FFFFFF
+}
+.navegacion a{
+    color: #9A9DA0;
+}
